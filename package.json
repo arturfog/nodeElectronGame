@@ -1,22 +1,16 @@
 {
-  "name": "electron-quick-start",
+  "name": "nodeelectrongame",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Simple node game",
   "main": "main.js",
   "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1",
     "start": "electron ."
   },
-  "repository": "https://github.com/electron/electron-quick-start",
-  "keywords": [
-    "Electron",
-    "quick",
-    "start",
-    "tutorial",
-    "demo"
-  ],
-  "author": "GitHub",
-  "license": "CC0-1.0",
+  "author": "Artur Fogiel",
+  "license": "GPL-3.0",
   "devDependencies": {
-    "electron": "~1.8.2"
+    "electron": "^1.8.3",
+    "phaser": "^3.2.1"
   }
 }
